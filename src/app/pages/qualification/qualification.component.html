@@ -1,0 +1,138 @@
+<section class="qualification section">
+    <h2 class="section__title">Experiencia</h2>
+    <span class="section__subtitle">Mi presentación personal</span>
+    <div class="qualification__container containerPersonal">
+        <div class="qualification__tabs">
+            <div (click)="cambioOpenLIst('educacion')" class="qualification__button button--flex "
+                [ngClass]="{'qualification__active': openList === 'educacion'}">
+                <i class="fas fa-graduation-cap qualification__icon"></i>
+                Educación
+            </div>
+
+            <div (click)="cambioOpenLIst('trabajo')" class="qualification__button button--flex"
+                [ngClass]="{'qualification__active': openList === 'trabajo'}">
+                <i class="fas fa-briefcase qualification__icon"></i>
+                Trabajo
+            </div>
+        </div>
+
+        <div class="qualification__sections">
+            <!-- cualificacion contenido 1 -->
+            <div class="qualification__content" [ngClass]="{'qualification__active': openList === 'educacion'}"
+                data-content>
+
+                <!-- contenido 1 -->
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Ingeniero en sistemas</h3>
+                        <span class="qualification__subtitle">UNID - Titulada</span>
+                        <div class="qualification__calendar"><i class="fas fa-calendar-alt"></i> 2018-2021</div>
+                    </div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                </div>
+
+                <!-- contenido 2 -->
+                <div class="qualification__data">
+                    <div></div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                    <div>
+                        <h3 class="qualification__title">Scrum Master Fundamentals</h3>
+                        <span class="qualification__subtitle">Scrum Institute - ID 33751656917389</span>
+                        <div class="qualification__calendar"><i class="fas fa-calendar-alt"></i> 2020</div>
+                    </div>
+
+
+                </div>
+
+                <!-- contenido 3 -->
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Cybersecurity Essentials </h3>
+                        <span class="qualification__subtitle">CISCO </span>
+                        <div class="qualification__calendar"><i class="fas fa-calendar-alt"></i> 2020</div>
+                    </div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                </div>
+
+                <!-- contenido 4 -->
+                <div class="qualification__data">
+                    <div></div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <!-- <span class="qualification__line"></span> -->
+                    </div>
+                    <div>
+                        <h3 class="qualification__title">Curso SEO Organico</h3>
+                        <span class="qualification__subtitle">Crehana - Platzi</span>
+                        <div class="qualification__calendar"><i class="fas fa-calendar-alt"></i> 2020-2021</div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!-- cualificacion contenido 1 -->
+            <div class="qualification__content" [ngClass]="{'qualification__active': openList === 'trabajo'}"
+                data-content>
+
+                <!-- contenido 1 -->
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Full Stack </h3>
+                        <span class="qualification__subtitle">SSClick</span>
+                        <div class="qualification__calendar"><i class="fas fa-calendar-alt"></i> 2020-2021</div>
+                    </div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                </div>
+
+                <!-- contenido 2 -->
+                <div class="qualification__data">
+                    <div></div>
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                    <div>
+                        <h3 class="qualification__title">FrontEnd Angular</h3>
+                        <span class="qualification__subtitle">Innmortal</span>
+                        <div class="qualification__calendar"><i class="fas fa-calendar-alt"></i> 2021-2022</div>
+                    </div>
+
+
+                </div>
+
+                <!-- contenido 3 -->
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Programador web </h3>
+                        <span class="qualification__subtitle">BOLTRAM</span>
+                        <div class="qualification__calendar"><i class="fas fa-calendar-alt"></i> 2023</div>
+                    </div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <!-- <span class="qualification__line"></span> -->
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
